@@ -1,8 +1,11 @@
+import Layouts from '../layouts/index';
 
 export default function Home() {
   return (
     <>
-      <h1>Hello guys</h1>
+      <Layouts>
+        <h1>Hello guys</h1>
+      </Layouts>
     </>
   )
 }
