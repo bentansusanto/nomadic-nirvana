@@ -10,3 +10,7 @@
 body{
   overflow-x: hidden;
 }
+
+p, input, label{
+  @apply text-[.9rem] placeholder:text-[.9rem] outline-none
+}

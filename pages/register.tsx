@@ -1,14 +1,15 @@
 import React from 'react'
 import LayoutAuth from '../layouts/layoutAuth'
+import Register from '../components/Auth/Register'
 
-const Register = () => {
+const RegisterPage = () => {
   return (
     <div>
         <LayoutAuth>
-            <h1>Register</h1>
+            <Register/>
         </LayoutAuth>
     </div>
   )
 }
 
-export default Register
+export default RegisterPage
