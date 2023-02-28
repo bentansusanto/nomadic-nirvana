@@ -16,8 +16,9 @@ const navlink: NavLink[] = [
 const Navbar = () => {
   const [isAuth, setIsAuth] = useState(false);
   const [data, setData] = useState<Profile>();
-  const base_Url = "http://localhost:8000";
+  const base_Url = 'https://web-service.herokuapp.com'
   const router = useRouter();
+  const [dropAuth, setDropAuth] = useState(false)
 
   useEffect(() => {
     const getUser = async () => {
@@ -32,7 +33,6 @@ const Navbar = () => {
         if (!response.ok) {
           throw new Error("Unauthorization");
         }
-        console.log(response);
         const content = await response.json();
         setIsAuth(true);
         setData(content);
@@ -60,9 +60,13 @@ const Navbar = () => {
     }
   };
 
+  const handleDropAuth = () => {
+    setDropAuth(!dropAuth)
+  }
+
   return (
     <div>
-      <div className="flex items-center px-20 py-5">
+      <div className="flex items-center pl-20 pr-36 py-5">
         <Image src={Logo} alt="" className="w-12" />
 
         <div className="ml-auto flex items-center space-x-32">
@@ -79,12 +83,12 @@ const Navbar = () => {
           <div>
             {isAuth ? (
               <div className="relative">
-                <div className="flex space-x-3">
+                <div onClick={handleDropAuth} className="flex space-x-3 items-center">
                   <p>{data?.names}</p>
                   <FiChevronDown />
                 </div>
-                <div className="bg-gray p-3 absolute top-8">
-                  <button onClick={Logout}>Logout</button>
+                <div className={`${dropAuth ? "bg-gray p-3 absolute top-8" : "hidden"} cursor-pointer `}>
+                  <p onClick={Logout} >Logout</p>
                 </div>
               </div>
             ) : (
