@@ -17,6 +17,9 @@ module.exports = {
       'gray' : '#9c9c9c',
       'black' : '#181818',
       'white' : '#ffffff'
+    },
+    fontFamily : {
+      'poppins' : ['Poppins']
     }
   },
   plugins: [],

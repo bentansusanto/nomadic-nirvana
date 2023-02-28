@@ -6,7 +6,7 @@ const FormLogin = () => {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const router = useRouter();
-  const base_Url = "https://web-service.herokuapp.com";
+  const base_Url = "http://localhost:8000";
 
   const submitLogin = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -22,8 +22,10 @@ const FormLogin = () => {
       if (!response.ok) {
         throw new Error("Error login");
       }
-      // console.log(response);
-      router.push('/')
+      const data = await response.json();
+      console.log(data);
+      localStorage.setItem('tokens', data.token);
+      router.push("/");
     } catch (error) {
       console.log({ message: error });
     }

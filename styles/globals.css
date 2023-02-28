@@ -9,8 +9,9 @@
 
 body{
   overflow-x: hidden;
+  @apply font-poppins
 }
 
-p, input, label{
+p, input, label, li, button{
   @apply text-[.9rem] placeholder:text-[.9rem] outline-none
 }
