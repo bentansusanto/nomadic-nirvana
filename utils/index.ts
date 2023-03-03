@@ -14,3 +14,14 @@ export interface Content{
     content : string;
     image : string;
 }
+
+export interface Jurnal{
+    rates : string;
+    title : string;
+}
+
+export interface Service{
+    icon : string;
+    title : string;
+    content : string;
+}

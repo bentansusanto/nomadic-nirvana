@@ -1,0 +1,71 @@
+{
+    "destination" : [
+        {
+            "idDestination" : "sasd1sad",
+            "title" : "Pagoda Bali",
+            "place" : "Bali, Denpasar",
+            "description" : "Pagoda Bali is a religious monument located in the town of Denpasar, Bali, Indonesia. It is also known as the Bajra Sandhi Monument, and is a major landmark in the area. The monument is a symbol of Bali's struggle for independence and its unity, as well as a tribute to the heroes who fought for their freedom.\n The Pagoda Bali is an impressive structure that stands at 45 meters tall, with three floors that contain a collection of historical dioramas, photographs, and artifacts that showcase Bali's cultural heritage. The monument's design is inspired by the shape of the bajra, which is a ceremonial mace used in Hinduism.\n The first floor of the Pagoda Bali is dedicated to the prehistoric era and Bali's early history, including the arrival of the first humans on the island. The second floor features dioramas that depict Bali's struggle for independence, including the battles against the Dutch colonial rulers. The third floor showcases Bali's culture and traditions, including its arts and crafts, dance, music, and religion.\n Visitors can climb to the top of the Pagoda Bali and enjoy panoramic views of the surrounding area. The monument is surrounded by a park that is a popular spot for picnics and leisurely walks. It is also a popular venue for cultural events and celebrations, such as Balinese festivals and ceremonies.",
+            "rating" : "4.5",
+            "image" : [
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1038&q=80"
+                }, 
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1524675053444-52c3ca294ad2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                } ,
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1625328256399-62e448055742?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
+                } 
+            ]
+
+        },
+        {
+            "idDestination" : "sasd2sad",
+            "title" : "Pura Lempuyang",
+            "place" : "Bali, Denpasar",
+            "description" : "Pura Lempuyang is a Balinese Hindu temple located in the eastern part of Bali, Indonesia. It is also known as the Lempuyang Temple or the Temple of Thousand Steps, as visitors have to climb over 1,700 steps to reach the main temple complex. The temple is situated on top of Mount Lempuyang and offers stunning views of the surrounding area, including the Mount Agung volcano.\n Pura Lempuyang is considered to be one of the most sacred temples in Bali and is an important site for Hindu pilgrims. The temple complex consists of several smaller temples, each with its own unique features and significance. The main temple is located at the top of the mountain and is surrounded by a series of gates that are considered to be the gateway to heaven.\n One of the most famous features of Pura Lempuyang is the Gate of Heaven, also known as the Gateway to the Sky. This is a monumental gate made of stone and decorated with intricate carvings and gold accents. It is believed that passing through the gate will bring good fortune and blessings.\n The temple complex also features a large courtyard and several smaller shrines, each dedicated to a different Hindu deity. Visitors can participate in various rituals and ceremonies, including prayer, offerings, and blessings.",
+            "rating" : "4.3",
+            "image" : [
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                }, 
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1560094817-74b3a70af55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
+                } ,
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1531778272849-d1dd22444c06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1060&q=80"
+                } 
+            ]
+        },
+        {
+            "idDestination" : "sasd3sad",
+            "title" : "Klingking Beach",
+            "place" : "Bali, Denpasar",
+            "description" : "Klingking Beach is a beautiful and secluded beach located on the southwestern coast of Nusa Penida, an island off the east coast of Bali. It is named after its unique rock formation that resembles a T-Rex's head, with a small strip of white sand at its base.\n Klingking Beach is quite difficult to access, as it requires a steep and challenging hike down a narrow cliffside path. However, many visitors say that the breathtaking views and crystal-clear turquoise waters make the effort well worth it.\n While visiting Klingking Beach, visitors can enjoy swimming, snorkeling, and sunbathing on the beach. It's also possible to explore the nearby cliffs and caves or take a boat tour of the surrounding waters.",
+            "rating" : "4.3",
+            "image" : [
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                }, 
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1674913768003-682ecbf31ee4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                }
+            ]
+        },
+        {
+            "idDestination" : "sasd3sad",
+            "title" : "Klingking Beach",
+            "place" : "Bali, Denpasar",
+            "description" : "Klingking Beach is a beautiful and secluded beach located on the southwestern coast of Nusa Penida, an island off the east coast of Bali. It is named after its unique rock formation that resembles a T-Rex's head, with a small strip of white sand at its base.\n Klingking Beach is quite difficult to access, as it requires a steep and challenging hike down a narrow cliffside path. However, many visitors say that the breathtaking views and crystal-clear turquoise waters make the effort well worth it.\n While visiting Klingking Beach, visitors can enjoy swimming, snorkeling, and sunbathing on the beach. It's also possible to explore the nearby cliffs and caves or take a boat tour of the surrounding waters.",
+            "rating" : "4.3",
+            "image" : [
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1539367628448-4bc5c9d171c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                }, 
+               {
+                    "ImageUrl" : "https://images.unsplash.com/photo-1674913768003-682ecbf31ee4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                }
+            ]
+        }
+    ]
+}

@@ -83,7 +83,7 @@ const Navbar = () => {
           <div>
             {isAuth ? (
               <div className="relative">
-                <div onClick={handleDropAuth} className="flex space-x-3 items-center">
+                <div onClick={handleDropAuth} className="flex space-x-3 items-center cursor-pointer">
                   <p>{data?.names}</p>
                   <FiChevronDown />
                 </div>

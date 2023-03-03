@@ -1,12 +1,15 @@
 import React, { ReactNode } from 'react'
 import Navbar from '../components/Navbar'
+import Providers from '../provider'
 
 const Layouts = ({children} : {children : ReactNode}) => {
   return (
-    <div>
+    <>
+    <Providers>
         <Navbar/>
         <main>{children}</main>
-    </div>
+    </Providers>
+    </>
   )
 }
 
